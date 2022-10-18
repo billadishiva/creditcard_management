@@ -6,12 +6,10 @@ package cards.credit.management.service.impl;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
-
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
-
 import cards.credit.management.dto.CreditCardDTO;
 import cards.credit.management.model.CreditCard;
 import cards.credit.management.repository.CreditCardRepository;

@@ -4,7 +4,6 @@
 package cards.credit.management.dto;
 
 import javax.persistence.Entity;
-
 import com.sun.istack.NotNull;
 
 /**

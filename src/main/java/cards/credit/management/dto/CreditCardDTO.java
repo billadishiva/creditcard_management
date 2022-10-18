@@ -3,7 +3,6 @@
  */
 package cards.credit.management.dto;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 
 import com.sun.istack.NotNull;

@@ -1,36 +1,23 @@
 package cards.credit.management.services.impl;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.when;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
-
-import org.assertj.core.api.Assert;
-import org.assertj.core.api.CollectionAssert;
 import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import org.modelmapper.ModelMapper;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
-
 import static org.mockito.BDDMockito.given;
-
 import cards.credit.management.dto.CreditCardDTO;
 import cards.credit.management.model.CreditCard;
 import cards.credit.management.repository.CreditCardRepository;
 import cards.credit.management.service.CreditCardService;
 import cards.credit.management.service.impl.CreditCardServicesImpl;
-import net.bytebuddy.NamingStrategy.Suffixing.BaseNameResolver.ForGivenType;
-import static org.hamcrest.CoreMatchers.is;
 
 /**
  * @author billa
